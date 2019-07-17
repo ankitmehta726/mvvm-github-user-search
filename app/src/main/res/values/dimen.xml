@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <dimen name="margin_small">5dp</dimen>
+    <dimen name="margin_standard">8dp</dimen>
+    <dimen name="margin_normal">10dp</dimen>
+    <dimen name="margin_large">15dp</dimen>
+    <dimen name="margin_general">16dp</dimen>
+    <dimen name="margin_xxx_large">80dp</dimen>
+    <dimen name="margin_ultra_large">140dp</dimen>
+    <dimen name="margin_xx_large">60dp</dimen>
+    <dimen name="margin_x_large">40dp</dimen>
+    <dimen name="padding_general">8dp</dimen>
+
+    <dimen name="text_x_small">10sp</dimen>
+    <dimen name="text_small">11sp</dimen>
+    <dimen name="text_normal">14sp</dimen>
+    <dimen name="text_large">16sp</dimen>
+    <dimen name="text_x_large">18sp</dimen>
+    <dimen name="text_xx_large">20sp</dimen>
+    <dimen name="text_xxx_large">22sp</dimen>
+
+
+    <dimen name="height_button">40dp</dimen>
+    <dimen name="height_tab">35dp</dimen>
+    <dimen name="twenty_dp">20dp</dimen>
+
+    <dimen name="padding_small">5dp</dimen>
+    <dimen name="padding_large">10dp</dimen>
+    <dimen name="hundred_dp">100dp</dimen>
+    <dimen name="fifty_dp">50dp</dimen>
+    <dimen name="sixty_dp">60dp</dimen>
+    <dimen name="seventy_dp">70dp</dimen>
+    <dimen name="hundred_forty_dp">140dp</dimen>
+    <dimen name="popup_width">300dp</dimen>
+    <dimen name="popup_height">400dp</dimen>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="dots_height">30dp</dimen>
+    <dimen name="dots_margin_bottom">20dp</dimen>
+    <dimen name="img_width_height">120dp</dimen>
+    <dimen name="slide_title">30dp</dimen>
+    <dimen name="slide_desc">16dp</dimen>
+    <dimen name="desc_padding">40dp</dimen>
+
+    <!--For PIN View-->
+    <dimen name="pv_pin_view_item_size">48dp</dimen>
+    <dimen name="pv_pin_view_item_radius">5dp</dimen>
+    <dimen name="pv_pin_view_item_spacing">5dp</dimen>
+    <dimen name="pv_pin_view_item_line_width">2dp</dimen>
+    <dimen name="pv_pin_view_cursor_width">2dp</dimen>
+
+</resources>

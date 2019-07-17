@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Github Search</string>
+    <string name="user_name">User Name...</string>
+    <string name="repos">Repos</string>
+    <string name="gists">Gists</string>
+    <string name="search_result">Search Result:</string>
+    <string name="search_by_username">Search by username..</string>
+</resources>

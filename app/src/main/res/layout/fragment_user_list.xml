@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <RelativeLayout
+            android:id="@+id/rlSearch"
+            android:layout_width="match_parent"
+            android:background="@color/colorPrimary"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.SearchView
+                android:id="@+id/searchView"
+                app:queryHint="@string/search_by_username"
+                app:defaultQueryHint="@string/user_name"
+                android:layout_margin="@dimen/margin_normal"
+                android:background="@color/colorPrimary"
+                android:layout_width="match_parent"
+                android:backgroundTint="@color/white"
+                android:layout_height="wrap_content"/>
+
+    </RelativeLayout>
+
+    <ImageView
+            android:id="@+id/ivBackgroundImage"
+            android:layout_width="0dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_height="0dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:alpha="0.05"
+            android:scaleType="centerInside"
+            android:src="@drawable/git_logo"
+            app:layout_constraintTop_toBottomOf="@id/rlSearch"/>
+
+    <TextView
+            android:id="@+id/tvLabelResult"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_normal"
+            app:layout_constraintStart_toStartOf="parent"
+            android:fontFamily="@font/poppins"
+            app:layout_constraintTop_toBottomOf="@id/rlSearch"
+            android:layout_margin="@dimen/margin_normal"
+            android:text="@string/search_result"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvUserList"
+            android:layout_width="0dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_height="0dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tvLabelResult"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
