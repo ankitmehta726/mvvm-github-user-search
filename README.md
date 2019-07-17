@@ -28,7 +28,7 @@ Search Github user profiles in a better way.(MVVM, Dagger2, Kotlin, Navigation C
   - Followers and Following List: List of followers is also there with count.
 
 ### Screenshot of the application
-<img src = "screenshots/search_result_page.png" width=170 height=280/><img src = "screenshots/user_profile_page.png" width=170 height=280/><img src = "screenshots/share_intent_popup.png" width=170 height=280/><img src = "screenshots/search_empty_page.png" width=170 height=280/>
+<img src = "screenshots/search_result_page.png" width=170 height=280/><img src = "screenshots/user_profile_page.png" width=170 height=280/><img src = "screenshots/share_intent_popup.png" width=170 height=280/><img src = "screenshots/search_empty_page.png" width=170 height=280/><img src = "screenshots/paralax_tab.png" width=170 height=280/>
 
 ### Setup
    - Clone the Repo
